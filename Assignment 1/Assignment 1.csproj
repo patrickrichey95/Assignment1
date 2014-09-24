@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="about.html" />
     <Content Include="contact.html" />
+    <Content Include="css\main.css" />
     <Content Include="github.html" />
     <Content Include="img\.gitkeep" />
     <None Include="Web.Debug.config">
@@ -72,6 +73,7 @@
     <Content Include="css\foundation.min.css" />
     <Content Include="css\normalize.css" />
     <Content Include="humans.txt" />
+    <Content Include="img\logo.jpg" />
     <Content Include="index.html" />
     <Content Include="js\foundation.min.js" />
     <Content Include="js\foundation\foundation.abide.js" />
@@ -91,6 +93,7 @@
     <Content Include="js\foundation\foundation.tab.js" />
     <Content Include="js\foundation\foundation.tooltip.js" />
     <Content Include="js\foundation\foundation.topbar.js" />
+    <Content Include="js\main.js" />
     <Content Include="js\vendor\fastclick.js" />
     <Content Include="js\vendor\jquery.cookie.js" />
     <Content Include="js\vendor\jquery.js" />
