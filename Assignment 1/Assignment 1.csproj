@@ -62,6 +62,7 @@
     <Content Include="css\main.css" />
     <Content Include="github.html" />
     <Content Include="img\.gitkeep" />
+    <Content Include="img\patrick_resume.docx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
