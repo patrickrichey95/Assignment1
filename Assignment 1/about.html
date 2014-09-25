@@ -5,33 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Patrick Richey | My Portfolio</title>
     <link rel="stylesheet" href="css/foundation.min.css" />
-    <script src="js/vendor/modernizr.js"></script>
+    <link href="css/main.css" rel="stylesheet" />
 </head>
 <body>
-    <nav class="top-bar">
-        <ul class="title-area">
-            <li class="name">
-                <h1><a href="index.html">My Portfolio</a></h1>
-            </li>
-        </ul>
-        <section class="top-bar-section">
-            <ul class="right">
-                <li><a href="index.html">Home</a></li>
-                <li class="active"><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="github.html">GitHub</a></li>
-                <li><a href="contact.html">Contact Me</a></li>
+    <div class="fixed">
+        <nav class="top-bar" data-topbar role="navigation" data-options="scrolltop:false;">
+            <ul class="title-area">
+                <li class="name">
+                    <h1 id="title-nav"><a href="index.html">My Portfolio</a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon" id="menu-dropdown"><a href="#"><span>Menu</span></a></li>
             </ul>
-        </section>
-    </nav>
+            <section class="top-bar-section">
+                <ul class="right">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="github.html">GitHub</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </section>
+        </nav>
+    </div>
 
-    <p>I first started programming in high school, my first computer programming course we learned Turing. Anyone who's familiar with Turing knows how powerful Turing is as a programming language... ;) Haha, all joking aside, I loved it. My first experiences working with code and writing out what I wanted the computer to do seemed like such a simple concept, yet so thrilling. Needless to say I immediately fell in love with 
+    <div class="row">
+        <article class="large-12 columns">
+            <h2>About Me</h2>
+            <img id="selfie" src="img/patrick.jpg" alt="Patrick Richey"/>
+            <p>I first started programming in high school, my first computer programming course we learned Turing. Anyone who's familiar with Turing knows how powerful Turing is as a programming language... ;) Haha, all joking aside, I loved it. My first experiences working with code and writing out what I wanted the computer to do seemed like such a simple concept, yet so thrilling. Needless to say I immediately fell in love with the idea and continued to take it.</p>
+            <p>My senior year in high school I once again took the computer programming course, where we were introduced to Java. A little more complicated than Turing, but with that came the ability to try new things and see the capability of what I was writing. Computer programming in high school is only an introductory course, but we still experimented and loved the content. My friends and I would try to go above and beyond the class requirements, everyday we'd race to see who could finish the homework for the day first. We all usually finished it in about 15 minutes. I loved the experience I had in high school so much I decided to pursue it through college.</p>
+            <p>My next step was starting my college experience at Georgian, being in the Computer Programmer course has exposed me to a much broader level of programming. I've had the pleasure of working with lots of different languages and environments, and learning from some great instructors at the college. They've definitely helped me prove to myself that my decision to go to Georgian for Programming was the right one.</p>
+            <p>Just like anyone, I have a lot to learn, and I continue to learn new things everyday. There's something satisfying about seeing your code come to life, putting hard work into polishing your ideas and making them work together.</p>
+        </article>
+    </div>
     
-        There's something satisfying about seeing your code come to life, putting hard work into polishing your ideas and making them work together. </p>
-
     <footer>Copyright &copy; 2014 Patrick Richey. All Rights Reserved.</footer> 
 
+    <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>

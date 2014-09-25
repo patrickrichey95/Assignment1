@@ -74,6 +74,7 @@
     <Content Include="css\normalize.css" />
     <Content Include="humans.txt" />
     <Content Include="img\logo.jpg" />
+    <Content Include="img\patrick.jpg" />
     <Content Include="index.html" />
     <Content Include="js\foundation.min.js" />
     <Content Include="js\foundation\foundation.abide.js" />
