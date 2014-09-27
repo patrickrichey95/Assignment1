@@ -7,3 +7,15 @@ img#selfie {
     padding-bottom: 10px;
     float:left;
 }
+
+#orbit {
+    border: 2px solid black;
+}
+
+#connect {
+    padding: 2px 2px 2px 2px;
+}
+
+#connect:hover {
+    background-color: orange;
+}
