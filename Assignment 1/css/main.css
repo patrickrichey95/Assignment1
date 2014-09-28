@@ -1,4 +1,4 @@
-﻿h1:not(#title-nav), h2, h3, footer, #resume {
+﻿h1:not(#title-nav), h2, h3, footer, #resume, #call_to_action {
     text-align:center;
 }
 
@@ -12,10 +12,10 @@ img#selfie {
     border: 2px solid black;
 }
 
-#connect {
+#social {
     padding: 2px 2px 2px 2px;
 }
 
-#connect:hover {
-    background-color: orange;
+#social:hover {
+    background-color: ButtonShadow;
 }

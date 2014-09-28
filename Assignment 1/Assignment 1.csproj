@@ -71,6 +71,7 @@
     <Content Include="img\orbit_campbells.jpg" />
     <Content Include="img\orbit_internship.jpg" />
     <Content Include="img\patrick_resume.docx" />
+    <Content Include="send.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -47,8 +47,25 @@
                 </address>
             </div>
         </div>
-        <div class="large-6 columns">
-            <a href="https://twitter.com/patrickrichey95" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @patrickrichey95</a>
+        <div class="panel large-6 columns">
+            <form id="email" action="send.php" method="post">
+                <h3>E-mail me</h3>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" size="25" maxlength="50" placeholder="Name">
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" placeholder="E-mail">
+                    </div>
+                    <div>
+                        <label for="text">Content</label>
+                        <textarea name="content" rows="3" cols="25"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Send</button>
+                    </div>
+            </form>
         </div>
     </div>
 
@@ -59,12 +76,13 @@
     </div>
 
     <div class="row">
-         <div class="text-center large-12 columns">
-             <a id="connect" href="https://www.facebook.com/patrick.richey95"><img src="img/facebook_logo.jpg" alt="Facebook Logo" /></a>
-             <a id="connect" href="https://twitter.com/patrickrichey95"><img src="img/twitter_logo.jpg" alt="Twitter Logo" /></a>
-             <a id="connect" href="http://ca.linkedin.com/in/patrickrichey1/"><img src="img/linkedin_logo.jpg" alt="LinkedIn Logo" /></a>
-             <a id="connect" href="https://www.youtube.com/user/patrickrichey95"><img src="img/youtube_logo.jpg" alt="YouTube Logo" /></a>
-         </div>
+        <div class="text-center large-12 columns">
+            <h4>Keep Connected!</h4>
+            <a id="social" href="https://www.facebook.com/patrick.richey95" target="_blank"><img src="img/facebook_logo.jpg" alt="Facebook Logo" /></a>
+            <a id="social" href="https://twitter.com/patrickrichey95" target="_blank"><img src="img/twitter_logo.jpg" alt="Twitter Logo" /></a>
+            <a id="social" href="http://ca.linkedin.com/in/patrickrichey1/" target="_blank"><img src="img/linkedin_logo.jpg" alt="LinkedIn Logo" /></a>
+            <a id="social" href="https://www.youtube.com/user/patrickrichey95" target="_blank"><img src="img/youtube_logo.jpg" alt="YouTube Logo" /></a>
+        </div>
     </div>
 
     <br />
