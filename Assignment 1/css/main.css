@@ -13,9 +13,9 @@ img#selfie {
 }
 
 #social {
-    padding: 2px 2px 2px 2px;
+    margin: 3px 3px 3px 3px;
 }
 
 #social:hover {
-    background-color: ButtonShadow;
+    margin-top: 0px;
 }

@@ -66,7 +66,9 @@
     <Content Include="img\campbells.jpg" />
     <Content Include="img\contact.jpg" />
     <Content Include="img\facebook_logo.jpg" />
+    <Content Include="img\html-css.jpg" />
     <Content Include="img\internship.jpg" />
+    <Content Include="img\java.jpg" />
     <Content Include="img\labyrinth.jpg" />
     <Content Include="img\linkedin_logo.jpg" />
     <Content Include="img\octocat.jpg" />
@@ -74,6 +76,7 @@
     <Content Include="img\orbit_campbells.jpg" />
     <Content Include="img\orbit_internship.jpg" />
     <Content Include="img\patrick_resume.docx" />
+    <Content Include="img\php_mysql.jpg" />
     <Content Include="send.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
