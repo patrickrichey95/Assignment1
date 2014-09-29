@@ -1,21 +1,33 @@
-﻿h1:not(#title-nav), h2, h3, footer, #resume, #call_to_action {
+﻿/*
+    File: main.css
+    Author: Patrick Richey - 200257310
+    Website: Portfolio
+    This is the style sheet for my portfolio website, it includes the basic styling rules I've used
+    to organize my page the way I wanted it to look.
+*/
+/* Allows specific attributes to be centered*/
+h1:not(#title-nav), h2, h3, footer, #resume, #call_to_action {
     text-align:center;
 }
 
+/* floated text around my picture, and gave it some padding so it wasnt right next to the words*/
 img#selfie {
     padding-right: 10px;
     padding-bottom: 0px;
     float:left;
 }
 
+/* bordered the project pictures to make them stand out*/
 #internship, #campbells, #labyrinth {
     border: 2px solid black;
 }
 
+/* give social media buttons a padding all the way around*/
 #social {
     margin: 3px 3px 3px 3px;
 }
 
+/* when hovering, take away the top margin to give the impression of the button floating up*/
 #social:hover {
     margin-top: 0px;
 }

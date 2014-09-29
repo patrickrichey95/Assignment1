@@ -62,7 +62,6 @@
     <Content Include="css\main.css" />
     <Content Include="github.html" />
     <Content Include="img\.gitkeep" />
-    <Content Include="img\arduino.jpg" />
     <Content Include="img\campbells.jpg" />
     <Content Include="img\contact.jpg" />
     <Content Include="img\facebook_logo.jpg" />
